@@ -8,7 +8,7 @@ const ContactMe = () => {
         <div className="hero-content flex-col lg:flex-row-reverse text-white">
           <div className="text-center lg:text-left">
             <div className=' text-center mt-1 mb-2'>
-              <h1 className="text-2xl font-bold p-2">
+              <h1 className="text-2xl font-bold">
               <span><i class="fa-solid fa-envelope"></i></span>
                  kowsarahammed80@gmail.com</h1>
             </div>
@@ -41,7 +41,7 @@ const ContactMe = () => {
                   <textarea className="textarea textarea-bordered" placeholder="Your Message"></textarea>
                 </div>
                 <div className="form-control mt-6">
-                  <button className="btn btn-primary text-white font-semibold">Send Message</button>
+                  <button className="btn btn-primary text-white font-semibold">Send Me</button>
                 </div>
               </form>
             </div>

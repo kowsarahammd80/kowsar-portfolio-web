@@ -6,7 +6,7 @@ const MyprojectsDisplay = ({ projectData }) => {
 
   return (
 
-    <div className="card w-96 shadow-xl image-full mt-5 mb-5">
+    <div className="card  shadow-xl image-full mt-5 mb-5">
       <figure><img src={img} alt="" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">{name}</h2>

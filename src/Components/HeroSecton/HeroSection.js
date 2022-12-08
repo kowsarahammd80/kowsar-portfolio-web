@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroSection.css'
 import banner from '../../assets/banne-2.png'
+import TypeWriterEffect from 'react-typewriter-effect';
 
 const HeroSection = () => {
   return (
@@ -9,15 +10,45 @@ const HeroSection = () => {
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-start lg:text-left lg:w-1/2">
             <h1 className="text-2xl font-bold"><span className='text-orange-400'>Hi</span>, Myself</h1>
-            <h1 className="text-4xl font-semibold">MD.Kowsar Ahammed</h1>
-            <h1 className="text-2xl text-orange-200 font-bold mt-2">I am a React JS Developer</h1>
+            <h1 className="text-4xl font-semibold">Md.Kowsar Ahammed</h1>
+
+
+            <h1 className="text-2xl text-orange-200 font-bold mt-2">
+              I am a
+              <span>
+
+                <TypeWriterEffect
+                  textStyle={{
+                    fontFamily: 'Red Hat Display',
+                    color: '#FED7AA',
+                    fontWeight: 500,
+                    fontSize: '1em',
+                  }}
+                  startDelay={2000}
+                  cursorColor="#FFFFFF"
+                  multiText={[
+                    'Web developer',
+                    'React JS Developer ',
+                  ]}
+                  multiTextDelay={1500}
+                  typeSpeed={50}
+                  multiTextLoop
+                />
+
+              </span>
+
+
+
+            </h1>
+
+
             <p className="py-3 text-lg">Passionate about coding.
               Love to learn new technology and implement it in real
-              life. I would like to shear my ideas and experiences in a
+              life. I would like to share my ideas and experiences in a
               creative ways.</p>
             <div className='flex justify-start lg:justify-start md:justify-center justify-center'>
               <a href="https://www.linkedin.com/in/md-kowsar-ahammed-b425a2257/" className='mr-5'>
-                <button className='btn bg-teal-600 text-white'>Contract Me</button>
+                <button className='btn bg-teal-600 text-white'>Contact Me</button>
               </a>
               <a href="https://drive.google.com/uc?export=download&id=1U-l2d0GwEvI9VN7jn-hv9scwfPPh1RwL">
                 <button className='btn bg-teal-600 text-white'>My Resume</button>

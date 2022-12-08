@@ -15,16 +15,16 @@ const Navbar = () => {
       <a href='#about'>About Me</a>
     </li>
     <li className='font-semibold text-orange-300'>
-      {/* <Link to='/skills'>My Skills</Link> */}
-      <a href='#skills'>My Skills</a>
+      <Link to='/skills'>My Skills</Link>
+      {/* <a href='#skills'>My Skills</a> */}
     </li>
     <li className='font-semibold text-orange-300'>
       <Link to='/projects'>My Projects</Link>
     </li>
 
     <li className='font-semibold text-orange-300'>
-      {/* <Link to='/contact'>Contact Me</Link> */}
-      <a href='#contact'>Contact Me</a>
+      <Link to='/contact'>Contact Me</Link>
+      {/* <a href='#contact'>Contact Me</a> */}
     </li>
   
   </>
@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 navbar-fixed">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown text-white">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>

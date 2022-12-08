@@ -12,7 +12,7 @@ const MySkills = () => {
   },[])
 
   return (
-    <div className='text-white bg-base-200'>
+    <div className='text-white bg-base-200 mb-5'>
       <h3 className='text-center text-2xl mt-5 text-cyan-300'>Let Me Intro My Skills</h3>
       <div className="hero  bg-base-200">
         <div className="hero-content flex-col lg:flex-row">

@@ -17,9 +17,9 @@ const MyProjects = ({ len }) => {
   return (
     <div>
       
-      <h1 className='text-xl text-center mt-5 text-cyan-300 mb-8'>My Projects</h1>
+      <h1 className='text-xl text-center mt-5 text-cyan-300 mb-8 font-semibold'>My Projects</h1>
 
-      <div className='mx-3 lg:mx-0 mt-5 mb-5 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2'>
+      <div className='mx-auto mt-5 mb-5 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-3'>
         {
           projects.slice(0, length).map(project => <MyprojectsDisplay
             key={project.id}

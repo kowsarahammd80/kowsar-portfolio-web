@@ -6,9 +6,12 @@ const Footer = () => {
   return (
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
       <div className="grid grid-flow-col gap-4 text-white">
-        <a className="link link-hover" href='#about'>About us</a>
-        <a className="link link-hover" href='#contact'>Contact</a>
-        <a className="link link-hover" href='#skill'>My Skills</a>
+        {/* <a className="link link-hover" href='#about'>About Me</a> */}
+        <Link to='/about' className='link link-hover'>About Me</Link>
+        {/* <a className="link link-hover" href='#contact'>Contact Me</a> */}
+        <Link to='/contact' className='link link-hover'> Contact Me </Link>
+        <Link to='/skills' className='link link-hover'>My Skills</Link>
+        {/* <a className="link link-hover" href='#skills'>My Skills</a> */}
         {/* <a className="link link-hover" >My Projects</a> */}
         <Link className="link link-hover" to='/projects'>My Projects</Link>
       </div>
