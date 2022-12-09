@@ -11,8 +11,8 @@ const Navbar = () => {
       <Link to='/'>Home</Link>
     </li>
     <li className='font-semibold text-orange-300'>
-      {/* <Link to='/about'>About Me</Link> */}
-      <a href='#about'>About Me</a>
+      <Link to='/about'>About Me</Link>
+      {/* <a href='#about'>About Me</a> */}
     </li>
     <li className='font-semibold text-orange-300'>
       <Link to='/skills'>My Skills</Link>

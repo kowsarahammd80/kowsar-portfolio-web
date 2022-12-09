@@ -12,34 +12,39 @@ const HeroSection = () => {
             <h1 className="text-2xl font-bold"><span className='text-orange-400'>Hi</span>, Myself</h1>
             <h1 className="text-4xl font-semibold">Md.Kowsar Ahammed</h1>
 
+            <div className='text-2xl flex items-center lg:items-center'>
 
-            <h1 className="text-2xl text-orange-200 font-bold mt-2">
-              I am a
-              <span>
+              
+                <h1 className="text-2xl text-orange-200 font-bold mt-2">
+                  I am a
+                </h1>
+              
+              
+                <h1 className='font-semibold mt-3 ml-2'>
 
-                <TypeWriterEffect
-                  textStyle={{
-                    fontFamily: 'Red Hat Display',
-                    color: '#FED7AA',
-                    fontWeight: 500,
-                    fontSize: '1em',
-                  }}
-                  startDelay={2000}
-                  cursorColor="#FFFFFF"
-                  multiText={[
-                    'Web developer',
-                    'React JS Developer ',
-                  ]}
-                  multiTextDelay={1500}
-                  typeSpeed={50}
-                  multiTextLoop
-                />
+                  <TypeWriterEffect
+                    textStyle={{
+                      fontFamily: 'Red Hat Display',
+                      color: '#FED7AA',
+                      fontWeight: 500,
+                      fontSize: '1em',
+                    }}
+                    startDelay={2000}
+                    cursorColor="#FFFFFF"
+                    multiText={[
+                      'Web developer.',
+                      'React JS Developer.',
+                    ]}
+                    multiTextDelay={1500}
+                    typeSpeed={65}
+                    multiTextLoop
+                  />
 
-              </span>
+                </h1>
+              
 
+            </div>
 
-
-            </h1>
 
 
             <p className="py-3 text-lg">Passionate about coding.
